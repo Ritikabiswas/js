@@ -33,5 +33,11 @@ const obj3={obj1,obj2}
 //   obj2: { work: 'IT', Salary: '20lpa' }
 // }
 // const obj4= Object.assign(obj1,obj2)//obj1 gets modified
-const obj4= Object.assign({},obj1,obj2)//obj1 not modified
-console.log(obj1)
+// const obj4= Object.assign({},obj1,obj2)//obj1 not modified
+// console.log(obj1)
+// const obj5={...obj1,...obj2}
+// console.log(obj5)
+//object destructuring 
+const {Salary:t}=obj2
+//console.log(Salary)
+console.log(t)
